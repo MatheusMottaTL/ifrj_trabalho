@@ -5,6 +5,10 @@
     src: url('fontes/VINTAGE\ COLLEGE\ DEPT_worn.otf') format('opentype');
   }
 
+@font-face {
+    font-family: subtitulo;
+    src: url('fontes/NCAA\ Purdue\ Boilermakers.otf') format('opentype');
+}
 :root{
     --cor1: ;
     --cor2: ;
@@ -33,6 +37,8 @@ header{
 
 }
 
-header > img{
-    
+article > h1 h2 h3{
+    font-family: subtitulo;
 }
+
+
