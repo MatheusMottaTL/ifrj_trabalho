@@ -76,7 +76,11 @@ article > p, aside > p, li{
     line-height: 1.5em;
 }
 
+aside img{
+    margin-left: auto;
+    display: block;
 
+}
 
 article{
     margin: 5px;
