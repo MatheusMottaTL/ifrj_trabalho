@@ -102,3 +102,6 @@ a:visited, a{
     color: black;
 }
 
+a:hover{
+    text-decoration: underline;
+}
