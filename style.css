@@ -9,6 +9,11 @@
     font-family: subtitulo;
     src: url('fontes/NCAA\ Purdue\ Boilermakers.otf') format('opentype');
 }
+
+@font-face{
+    font-family: paragrafos;
+    src: url(fontes/BreeSerif-Regular.ttf) format('truetype');
+}
 :root{
     --cor1: ;
     --cor2: ;
@@ -37,6 +42,9 @@ header{
 
 }
 
+article > p{
+    font-family: paragrafos;
+}
 article > h2, article > h3, article > h4{
     font-family: subtitulo;
 }
