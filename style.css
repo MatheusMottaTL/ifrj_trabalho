@@ -2,6 +2,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
@@ -11,9 +12,9 @@ header{
 }
 
 
-article {
+main{
     background-color: orange;
-    width: 900px;
+    width: 800px;
     margin: 0px auto 0px auto;
     padding: 5px;
 }
