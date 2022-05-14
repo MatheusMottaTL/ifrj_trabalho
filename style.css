@@ -30,15 +30,8 @@
 
 
 
-
-
-body{
+body, html{
     margin: 0px;
-}
-
-header#inicio{
-    background-image: url(imagens/ifrjparacambilogo.jpg);
-    background-repeat: no-repeat;
 }
 
 header > h1{
@@ -51,6 +44,7 @@ header{
     font-family: titulo;
     margin: 0px auto 0px auto;
     display: block;
+    background-color: white;
 }
 
 main{
@@ -76,11 +70,6 @@ article > p, aside > p, li{
     line-height: 1.5em;
 }
 
-aside img{
-    margin-left: auto;
-    display: block;
-
-}
 
 article{
     margin: 5px;
