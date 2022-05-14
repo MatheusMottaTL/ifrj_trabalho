@@ -6,11 +6,13 @@ body{
 }
 
 
-header{
+header > h1{
     text-align: center;
-    padding: 40px 0px 40px 0px;
 }
-
+header > img{
+    display: block;
+    margin: auto;
+}
 
 main{
     background-color: orange;
