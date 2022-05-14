@@ -97,8 +97,8 @@ footer{
     font-weight: bold;
 }
 
-a{
+a:visited, a{
     text-decoration: none;
+    color: black;
 }
 
-a:
