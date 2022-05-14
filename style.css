@@ -39,7 +39,7 @@ header{
     text-align: center;
     font-size: 30px;
     font-family: titulo;
-
+    box-shadow: ;
 }
 
 main{
@@ -50,11 +50,20 @@ main{
 article > p, aside > p{
     font-family: paragrafos;
     text-align: justify;
+    font-weight: 400;
 }
+
 article > h2, article > h3, article > h4, aside > h2{
     font-family: subtitulo;
 }
 
 
+
+
+footer{
+    text-align: center;
+    font-family: paragrafos;
+    font-weight: bold;
+}
 
 
