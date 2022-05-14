@@ -38,7 +38,7 @@ main >  h1{
 
 article > p{
     color: white;
-    text-shadow: 1px 2px 3px black ;
+    text-shadow: 1px 2px 1px black ;
 }
 img.img1{
     display: block;
