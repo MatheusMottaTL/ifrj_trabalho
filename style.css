@@ -37,7 +37,7 @@ header{
 
 }
 
-article > h1 h2 h3{
+article > h2, article > h3, article > h4{
     font-family: subtitulo;
 }
 
