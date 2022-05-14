@@ -13,7 +13,25 @@ header{
 
 article {
     background-color: orange;
+    width: 900px;
+    margin: 0px auto 0px auto;
+    padding: 5px;
 }
+
+img.img1{
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+
+footer#final{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 1px 0px 1px 0px;
+    width: auto;
+}
+
+
 /*
 div#video{
     position: relative;
@@ -31,15 +49,3 @@ div#video > iframe{
     height: 90%;
 }
 */
-footer#final{
-    text-align: center;
-    background-color: aliceblue;
-    padding: 1px 0px 1px 0px;
-    width: auto;
-}
-
-img.img1{
-    display: block;
-    margin: 0px auto 0px auto;
-}
-
