@@ -43,13 +43,14 @@ header{
     text-align: center;
     font-size: 30px;
     font-family: titulo;
-    box-shadow: 1px 1px 2px black;
+
 }
 
 main{
     margin: auto;
     max-width: 800px;
     box-shadow: -1px 1px 0px black;
+    box-shadow: 0px 0px 2px black;
     padding: 10px;
 }
 
