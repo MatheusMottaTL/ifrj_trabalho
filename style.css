@@ -11,8 +11,8 @@
 }
 
 @font-face{
-    font-family: paragrafos;
-    src: url(fontes/BreeSerif-Regular.ttf) format('truetype');
+    font-family: footer_font;
+    src: url("fontes/BreeSerif-Regular.ttf") format('truetype');
 }
 :root{
     --cor1: ;
@@ -60,13 +60,15 @@ article > img{
 }
 
 article > p, aside > p{
-    font-family: paragrafos;
+    font-family: '';
     text-align: justify;
     font-weight: 400;
+    line-height: 1.5em;
 }
 
 article > h2, article > h3, article > h4, aside > h2{
     font-family: subtitulo;
+    line-height: 1.9em;
 }
 
 
@@ -74,7 +76,7 @@ article > h2, article > h3, article > h4, aside > h2{
 
 footer{
     text-align: center;
-    font-family: paragrafos;
+    font-family: footer_font;
     font-weight: bold;
 }
 
