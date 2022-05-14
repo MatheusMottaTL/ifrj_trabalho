@@ -69,7 +69,7 @@ article > picture > img{
 
 
 
-article > p, aside > p{
+article > p, aside > p, li{
     font-family: paragrafos;
     text-align: justify;
     font-weight: 400;
