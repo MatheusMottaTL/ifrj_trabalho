@@ -49,12 +49,13 @@ header{
     text-align: center;
     font-size: 30px;
     font-family: titulo;
-
+    margin: 0px auto 0px auto;
 }
 
 main{
     margin: auto;
-    width: 800px;
+    min-width: 320px;
+    max-width: 800px;
     box-shadow: -1px 1px 0px black;
     box-shadow: 0px 0px 2px black;
     padding: 10px;
@@ -65,11 +66,17 @@ article > img{
     margin: auto;
 }
 
+
+
 article > p, aside > p{
     font-family: paragrafos;
     text-align: justify;
     font-weight: 400;
     line-height: 1.5em;
+}
+
+article{
+    margin: 5px;
 }
 
 article > h2, article > h3, article > h4, aside > h2{
@@ -80,6 +87,7 @@ aside{
     background-image: url(imagens/ifrjparacambilogo.jpg);
     background-repeat: no-repeat;
     background-position: right top;
+    background-attachment: scroll;
 }
 
 footer{
