@@ -50,6 +50,7 @@ header{
     font-size: 30px;
     font-family: titulo;
     margin: 0px auto 0px auto;
+    display: block;
 }
 
 main{
@@ -96,4 +97,6 @@ footer{
     font-weight: bold;
 }
 
-
+a{
+    text-decoration: none;
+}
