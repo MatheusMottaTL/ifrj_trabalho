@@ -80,6 +80,22 @@ article > h2, article > h3, article > h4, aside > h2{
     line-height: 1.9em;
 }
 
+div#video{
+    position: relative;
+    background-color: #808080;
+    height: 0px;
+    margin: 0px -20px 15px -20px;
+    padding-bottom: 59%;
+}
+
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 footer{
     text-align: center;
     font-family: footer_font;
