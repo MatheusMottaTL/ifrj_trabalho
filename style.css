@@ -20,16 +20,6 @@
     src: url('fontes/open-sans/static/OpenSans/OpenSans-Medium.ttf');
 }
 
-:root{
-    --cor1: ;
-    --cor2: ;
-    --cor3: ;
-    --cor4: ;
-    --cor5: ;
-}
-
-
-
 body, html{
     margin: 0px;
 }
