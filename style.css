@@ -24,6 +24,10 @@ body, html{
     margin: 0px;
 }
 
+body{
+    background-color: rgba(134, 119, 119, 0.659);
+}
+
 header > h1{
     margin: 0%;
     padding: 1px;
@@ -34,14 +38,14 @@ header{
     font-family: titulo;
     margin: 0px auto 0px auto;
     display: block;
-    background-color: white;
+
 }
 
 main{
     margin: auto;
     min-width: 320px;
     max-width: 900px;
-    box-shadow: -1px 1px 0px black;
+    background-color: #e5e5e5;
     box-shadow: 0px 0px 2px black;
     padding: 10px;
 }
