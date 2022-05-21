@@ -46,14 +46,14 @@ main{
     padding: 10px;
 }
 
-article > picture > img, img{
+img{
     display: block;
     margin: auto;
 }
 
 
 
-article > p, aside > p, li{
+article > p, aside > p, li, div{
     font-family: paragrafos;
     text-align: justify;
     font-weight: 400;
@@ -104,4 +104,24 @@ a:hover{
 
 img#bola{
     width: 250px;
+}
+
+div#IFRJ{
+    box-shadow: 0px 0px 2px black;
+    padding: 15px;
+    position: relative;
+    display: block;
+        
+}
+
+picture#ifrj-logo{
+    position: absolute;
+    left: 35%;
+    bottom: 10px;
+    padding: 5px;
+    display: block;
+}
+
+picture#ifrj-logo > img{
+    margin: 0px 0px 0px 15px;
 }
