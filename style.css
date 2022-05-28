@@ -46,9 +46,10 @@ main{
     padding: 10px;
 }
 
-img{
+img, picture > source{
     display: block;
     margin: auto;
+    border-radius: 4px;
 }
 
 
@@ -124,4 +125,14 @@ picture#ifrj-logo{
 
 picture#ifrj-logo > img{
     margin: 0px 0px 0px 15px;
+}
+
+p.center-p{
+    text-align: center;
+    font-family: paragrafos;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: #8080806f;
+    border-radius: 4px;
+    margin: 0.4px 0px 0px 0px;
 }
